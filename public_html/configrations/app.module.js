@@ -1,0 +1,1 @@
+ var MR_ROBOT=angular.module('MR_ROBOT',['ui.router','ui.bootstrap']);

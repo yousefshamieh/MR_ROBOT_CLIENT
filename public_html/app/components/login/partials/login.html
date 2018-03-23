@@ -1,0 +1,41 @@
+<div class="limiter">
+    <div class="container-login100">
+        <div class="login-fram p-t-85 p-b-20">
+            <form class="login100-form validate-form">
+                <span class="login-title">
+                    Mr Robot
+                </span>
+                <span class="login-logo">
+
+                    <img src="../assets/img/background/ropot.png" alt=""/>
+                </span>
+                <p style="text-align: center;">Please enter your user information</p>
+                <div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Enter username">
+                    <label class="label-style">Username</label>
+                    <input class="form-control" type="text" name="username"  ng-model="fields.username">
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+                    <label class="label-style"> Password</label>
+                    <input class="form-control" type="password" name="password" ng-model="fields.password">
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <a href="#" class="link-style">Forgot Password?</a>
+                </div>
+                <div class="container-login100-form-btn">
+                    <button class="btn btn-primary " ng-click="login()">
+                        Login
+                    </button>
+                </div>
+                <div class="container-login100-form-btn">
+                    <span class="txt1">
+                        Don’t have an account?  <a href="#" class="link-style">
+                            Sign up
+                        </a>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

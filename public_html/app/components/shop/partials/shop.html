@@ -1,0 +1,88 @@
+<section  class="padding-top-bottom">
+    <div class="container">
+        <div id="projects-container" class="row">
+            <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 product-header" >
+                <div class="pull-left">
+                    <label>Products</label>
+                        <ul class="filter group albumFilter"> 
+                            <li data-filter="*" class="active">ALL</li> 
+                            <li data-filter=".cat1">SPEAKERS</li> 
+                            <li data-filter=".cat2">WATCHES</li> 
+                            <li data-filter=".cat3">STATION</li> 
+                            <li data-filter=".cat4">PHONE</li> 
+                        </ul> 
+                    
+                </div> 
+                <div class="pull-right">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Product Name" ng-model="searchValue">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 product">
+                <div class="img-box">
+                    <img class="img-responsive project-image" src="../assets/img/product1.jpg" alt=""/>
+                </div>
+                <div class="product-info col-md-12">
+                    <p class="project-price">${{items[0].price}}</p>
+                    <div>
+                        <h4 class="project-title">{{items[0].name}}</h4>
+                    </div>
+                </div>
+                <div class="bt-detail-shop">
+                    <h5 class="project-title">{{items[0].name}}</h5>
+                    <p class="project-price">${{items[0].price}}</p>
+                </div>
+                <div class="sr-only project-description"  data-oldprice="$800" data-images="../../../../assets/img/01.jpg,img/02.jpg,img/03.jpg,img/04.jpg,img/05.jpg">
+                    <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="img-box">
+                    <!--                    <div class="hover-mask2"></div>
+                                        <span class="product-icon icon-eye"></span>-->
+
+                    <img class="img-responsive project-image" src="../assets/img/product1.jpg" alt=""/>
+                </div>
+                <div class="product-info col-md-12">
+                    <p class="project-price">${{items[1].price}}</p>
+                    <div>
+                        <h4 class="project-title">{{items[1].name}}</h4>
+                    </div>
+                </div>
+                <div class="sr-only project-description"  data-oldprice="$800" data-images="../../../../assets/img/01.jpg,img/02.jpg,img/03.jpg,img/04.jpg,img/05.jpg">
+                    <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="project-modal" class="modal " style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="close" href="#" data-dismiss="modal" ><i class="icon-close"></i></a>
+                    <div id="project-slider" class="owl-carousel owl-theme" data-navigation="true" data-dots="true" >
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div id="project-sidebar" class="col-md-4 ">
+                                <h2 id="sdbr-title">Flat UI-Kit</h2>	
+                                <div>
+                                    <div id="sdbr-price">200</div>
+                                    <div id="sdbr-oldprice">500</div>
+                                </div>
+                            </div>
+                            <div id="project-content" class="col-md-8 ">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,16 @@
+{
+  "name": "MR_ROPOT",
+  "version": "1.0.0",
+  "description": "\tarduino parts",
+  "main": "index.js",
+  "author": "Yousef Shamieh",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "@uirouter/angularjs": "1.0.7",
+    "angular": "^1.6.9",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-router": "^1.0.3",
+    "font-awesome": "^4.7.0"
+  }
+}

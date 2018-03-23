@@ -1,0 +1,34 @@
+<div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">
+                <img id="navlogo" src="../assets/img/navlogo-blue.png" alt="microstore" width="122" height="45">
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul id="navigation" class="nav navbar-nav navbar-right text-center">
+                <li><a ui-sref="shop" >Shop</a></li>
+                <li><a href="#about">Orders</a></li>
+                <li><a href="#contact">Carts</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">About Us</a></li>
+                <li><a ui-sref="cart"><i class="fa fa-shopping-cart"></i>
+                   <p class="number-prod-cart">2</p> </a></li>
+<!--                 <li class="dropdown">
+                     <i class="fa fa-shopping-cart"></i>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Account</a></li>
+                         <li><a href="#">Logout</a></li>
+                    </ul>
+                </li>-->
+
+            </ul>
+        </div>
+
+    </div>
+</div>
+ <ui-view></ui-view>
